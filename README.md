@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0368-largest-divisible-subset](https://github.com/moavern/LeetCode/tree/master/0368-largest-divisible-subset) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/moavern/LeetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2262-solving-questions-with-brainpower](https://github.com/moavern/LeetCode/tree/master/2262-solving-questions-with-brainpower) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/moavern/LeetCode/tree/master/2888-minimum-index-of-a-valid-split) |
@@ -13,10 +14,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [0368-largest-divisible-subset](https://github.com/moavern/LeetCode/tree/master/0368-largest-divisible-subset) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/moavern/LeetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 ## Sorting
 |  |
 | ------- |
+| [0368-largest-divisible-subset](https://github.com/moavern/LeetCode/tree/master/0368-largest-divisible-subset) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/moavern/LeetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/moavern/LeetCode/tree/master/2888-minimum-index-of-a-valid-split) |
 ## Matrix
@@ -31,6 +34,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0368-largest-divisible-subset](https://github.com/moavern/LeetCode/tree/master/0368-largest-divisible-subset) |
 | [2262-solving-questions-with-brainpower](https://github.com/moavern/LeetCode/tree/master/2262-solving-questions-with-brainpower) |
 ## Tree
 |  |
