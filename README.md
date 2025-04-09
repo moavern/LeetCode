@@ -12,6 +12,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2262-solving-questions-with-brainpower](https://github.com/moavern/LeetCode/tree/master/2262-solving-questions-with-brainpower) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/moavern/LeetCode/tree/master/2888-minimum-index-of-a-valid-split) |
 | [3152-maximum-value-of-an-ordered-triplet-ii](https://github.com/moavern/LeetCode/tree/master/3152-maximum-value-of-an-ordered-triplet-ii) |
+| [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/moavern/LeetCode/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 ## Math
 |  |
 | ------- |
@@ -32,6 +33,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/moavern/LeetCode/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/moavern/LeetCode/tree/master/2888-minimum-index-of-a-valid-split) |
+| [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/moavern/LeetCode/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 ## Dynamic Programming
 |  |
 | ------- |
