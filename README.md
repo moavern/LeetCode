@@ -18,6 +18,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0368-largest-divisible-subset](https://github.com/moavern/LeetCode/tree/master/0368-largest-divisible-subset) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/moavern/LeetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
+| [3243-count-the-number-of-powerful-integers](https://github.com/moavern/LeetCode/tree/master/3243-count-the-number-of-powerful-integers) |
 ## Sorting
 |  |
 | ------- |
@@ -40,6 +41,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0368-largest-divisible-subset](https://github.com/moavern/LeetCode/tree/master/0368-largest-divisible-subset) |
 | [0416-partition-equal-subset-sum](https://github.com/moavern/LeetCode/tree/master/0416-partition-equal-subset-sum) |
 | [2262-solving-questions-with-brainpower](https://github.com/moavern/LeetCode/tree/master/2262-solving-questions-with-brainpower) |
+| [3243-count-the-number-of-powerful-integers](https://github.com/moavern/LeetCode/tree/master/3243-count-the-number-of-powerful-integers) |
 ## Tree
 |  |
 | ------- |
@@ -56,4 +58,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/moavern/LeetCode/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
+## String
+|  |
+| ------- |
+| [3243-count-the-number-of-powerful-integers](https://github.com/moavern/LeetCode/tree/master/3243-count-the-number-of-powerful-integers) |
 <!---LeetCode Topics End-->
