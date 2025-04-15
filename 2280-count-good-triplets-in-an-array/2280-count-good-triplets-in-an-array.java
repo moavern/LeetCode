@@ -1,22 +1,40 @@
-class Solution {
-    public long goodTriplets(int[] nums1, int[] nums2) {
-        HashMap<Integer, Integer> mpp = new HashMap<>();
-        for (int i = 0; i < nums1.length; i++) mpp.put(nums1[i], i);
-        int n = nums2.length;
+class Fenwick {
+    public long[] tree;
+    Fenwick(int n) {
+        tree = new long[n + 1];
+    }
+    public void update(int k, int x) {
+        k++;
+        while (k < tree.length) {
+            tree[k] += x;
+            k += k & -k;
+        }
+    }
+    public long query(int k) {
         long total = 0;
-        ArrayList<Integer> st = new ArrayList<>();
-        for (int x : nums2) {
-            int idx = mpp.get(x);
-            int left = orderOfKey(st, idx);
-            int right = (n - 1 - idx) - (st.size() - left);
-            total += (long) left * right;
-            st.add(left, idx);
+        k++;
+        while (k > 0) {
+            total += tree[k];
+            k -= k & -k;
         }
         return total;
     }
-    
-    private int orderOfKey(ArrayList<Integer> st, int key) {
-        int pos = Collections.binarySearch(st, key);
-        return pos < 0 ? -pos - 1 : pos;
+}
+
+class Solution {
+    public long goodTriplets(int[] nums1, int[] nums2) {
+        int n = nums1.length;
+        long total = 0;
+        int[] mpp = new int[n];
+        for (int i = 0; i < n; i++) mpp[nums1[i]] = i;
+        Fenwick fw = new Fenwick(n);
+        for (int i : nums2) {
+            int idx = mpp[i];
+            long left = fw.query(idx);
+            long right = (n - 1 - idx) - (fw.query(n - 1) - left);
+            total += left * right;
+            fw.update(idx, 1);
+        }
+        return total;
     }
 }
